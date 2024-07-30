@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto";
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(199, 214, 217);
+    overflow: hidden;
+    }
+
+.form{
+    width: 74%;
+    height: 88%;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 38px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}    
+
+.sidebar{
+    width: 24%;
+    height: 84%;
+    background-color: rgb(54, 76, 245);
+    position: fixed;
+    margin-top: 12px;
+    margin-left: 20px;
+   border-radius: 10px;
+   
+}
+
+.fleeso{
+    padding-top: 30px;
+    font-size: 10px;
+    padding-left: 23px;
+    color: white;
+}
+
+.journey{
+    padding-top: 70px;
+    font-size: 20px;
+    padding-left: 23px;
+    color: white;
+}
+
+.sidep1{
+    color: rgb(147, 160, 202);
+    padding-top: 48px;
+    padding-left: 23px;
+    font-size: 14px;
+    
+}
+
+.sidep2{
+    color: rgb(147, 160, 202);
+    padding-left: 23px;
+    font-size: 14px;
+    
+}
+
+.box{
+    background-color: rgb(36, 29, 242);
+    width: 85%;
+    height: 30%;
+    margin-top: 80px;
+    margin-left: 20px;
+    border-radius: 4px;
+    color: rgb(245 , 245 , 245 , 0.795);
+    font-size: 10px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 18px;
+}
+
+img{
+    height: 45px;
+    width: 50px;
+    margin-top: 15px;
+    border-radius: 13px;
+    }
+
+.imgside{
+     vertical-align:40px;
+     padding-left: 10px;
+     color: white;
+     font-size: 9px;
+     display: inline-block;
+     
+}
+
+.imgside2{
+    display: inline-block;
+    margin-left: -33px;
+    vertical-align: 20px;
+
+}
+
+/* .circle{
+    background-color: aqua;
+}
+
+.circle1{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color:brown;
+    
+} */
+
+
+
+.check{
+    margin-top: 6px;
+    margin-left: 110px;
+    
+}
+
+/* .check input{
+    text-decoration: none;
+}
+
+.radiocheck:hover{
+   background-color: aqua;
+} */
+
+/* .check{
+    background-color: blue;
+} */
+
+.radiocheck{
+     cursor: pointer;
+     
+     
+     
+}
+
+/* .check input:visited{
+    color: blue;
+    
+} */
+
+/* input[type="radio"]{
+    background-color: blue;
+} */
+
+/* .radiocheck:visited{
+    background-color: white;
+} */
+.signup{
+    padding-left: 39%;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.account{
+    padding-left: 39%;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.look{
+    padding-left: 39%;
+    color: gray;
+    font-size: 11px;
+    padding-top: 26px;
+}
+
+
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#project{
+   
+    margin-top: 13px;
+    margin-left: 15px;
+
+}
+
+.input1:visited{
+    border-color: blue;
+}
+
+
+
+.project:active{
+    color: blue;
+}
+
+.design:hover{
+    color: blue;
+}
+
+.input1{
+    border: 2px solid rgb(186, 185, 196);
+    margin-left: 39%;
+    width: 180px;
+    height: 38px;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+
+.input1:hover{
+    border-color: blue;
+}
+
+.input2:hover{
+    border-color: blue;
+}
+
+.project{
+    font-size: 11px;
+    vertical-align: super;
+}
+
+#design{
+   
+    margin-top: 13px;
+    margin-left: 15px;
+
+}
+
+.input2{
+    border: 2px solid rgb(186, 185, 196);
+    width: 180px;
+    height: 38px;
+    margin-right: 70px;
+    margin-top: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+   
+    
+}
+
+.design{
+    font-size: 11px;
+    vertical-align: super;
+}
+
+.email{
+    padding-left: 39%;
+    color: gray;
+    font-size: 11px;
+    padding-top: 12px;
+
+}
+
+#email{
+    border: 1px solid rgb(186, 185, 196);
+    margin-left: 39%;
+    width: 435px;
+    height: 35px;
+    border-radius: 6px;
+    margin-top: 12px;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 11px;
+    
+}
+
+.Password{
+    padding-left: 39%;
+    color: gray;
+    font-size: 11px;
+    padding-top: 12px;
+
+}
+
+#Password{
+    border: 1px solid rgb(186, 185, 196);
+    margin-left: 39%;
+    width: 435px;
+    height: 35px;
+    border-radius: 6px;
+    margin-top: 12px;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 11px;
+    
+}
+
+.skills{
+    padding-left: 39%;
+    color: gray;
+    font-size: 11px;
+    padding-top: 12px;
+
+}
+
+#skills{
+    border: 1px solid rgb(186, 185, 196);
+    margin-left: 39%;
+    width: 435px;
+    height: 35px;
+    border-radius: 6px;
+    margin-top: 12px;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 11px;
+    
+}
+
+.Createaccount{
+    margin-left: 39%;
+    margin-top: 8px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(36, 29, 242);
+    border: 1px solid rgb(36, 29, 242);
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+
+
+
